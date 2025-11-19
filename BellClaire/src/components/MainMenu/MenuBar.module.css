@@ -1,0 +1,116 @@
+/* MenuDrawer.module.css */
+.overlay {
+    position: fixed;
+    inset: 0;
+    /* top:0, right:0, bottom:0, left:0 */
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 90;
+}
+
+/* 메뉴 박스 */
+.drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 320px;
+    /* 두 번째 캡쳐처럼 폭 설정 */
+    height: 100vh;
+    background: #F0EFE7;
+    padding: 24px 24px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+
+    /* 슬라이드 애니메이션용 */
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+}
+
+.drawerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-family: "Inter";
+    color: #736C6C;
+}
+
+.closeBtn {
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #736C6C;
+}
+
+.menuList {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.menuList[data-page="main"] a {
+    color: #736C6C;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Inter";
+}
+
+.menuList[data-page="main"] a:hover {
+    cursor: pointer;
+    color: #87B4C9;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter";
+}
+
+.linkBtn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #736C6C;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+}
+
+.linkBtn:hover {
+    color: #87B4C9;
+}
+
+.backBtn {
+    background: none;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: "Inter";
+    margin-bottom: 12px;
+    padding: 0;
+    text-align: left;
+}
+
+.allView {
+    color: #BFBFBF;
+    font-size: 16px;
+    font-family: "Inter";
+    margin-bottom: 16px;
+    display: block;
+}
+
+.menuList[data-page="all"] a {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Inter";
+}
+
+.menuList[data-page="all"] a:hover {
+    cursor: pointer;
+    color: #87B4C9;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter";
+}
