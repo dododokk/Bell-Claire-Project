@@ -1,20 +1,20 @@
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "../components/ScrollToTop";
 import Home from "./Home/Home";
 import Made from "./Made/Made";
+import New from "./New/New";
 
 const Router = () => {
-    const router = createBrowserRouter([
-        {
-            path: "/",
-            element: <Home/>
-        },
-        {
-            path: "made",
-            element: <Made/>
-        },
-    ]);
-
-    return <RouterProvider router={router}/>;
+  return (
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/made" element={<Made />} />
+        <Route path="/new" element={<New />} />
+      </Routes>
+    </BrowserRouter>
+  );
 };
 
 export default Router;
