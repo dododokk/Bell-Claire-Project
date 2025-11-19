@@ -10,7 +10,10 @@ import today1 from "../assets/Today/today1.svg";
 import today2 from "../assets/Today/today2.svg";
 import today3 from "../assets/Today/today3.svg";
 import today4 from "../assets/Today/today4.svg";
-
+import best1 from "../assets/Best/best1.svg";
+import best2 from "../assets/Best/best2.svg";
+import best3 from "../assets/Best/best3.svg";
+import best4 from "../assets/Best/best4.svg";
 
 const productList = [
     {
@@ -84,7 +87,7 @@ const productList = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         label: "오늘출발",
         productNum: 4,
         items: [
@@ -115,6 +118,41 @@ const productList = [
                 feature: "[발레코어]",
                 name: "샤 포그 프릴 캉캉 sk",
                 price: 25350
+            },
+        ]
+    },
+    {
+        id: 4,
+        label: "BEST 30",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: best1,
+                feature: "[MADE]",
+                name: "fiancée organza rich long sk",
+                price: 57000
+            },
+            {
+                id: 2,
+                image: best2,
+                feature: "[벨르 PICK/스판]",
+                name: "스웨이드 JP",
+                price: 64000
+            },
+            {
+                id: 3,
+                image: best3,
+                feature: "[벨르 PICK]",
+                name: "나일론 리본 스트링 PT",
+                price: 32000
+            },
+            {
+                id: 4,
+                image: best4,
+                feature: "",
+                name: "반 하이 원턱 하프 PT",
+                price: 36000
             },
         ]
     }

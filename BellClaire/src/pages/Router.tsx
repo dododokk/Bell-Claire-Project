@@ -4,6 +4,7 @@ import Home from "./Home/Home";
 import Made from "./Made/Made";
 import New from "./New/New";
 import Today from "./Today/Today";
+import Best from "./Best/Best";
 
 const Router = () => {
     return (
@@ -14,6 +15,7 @@ const Router = () => {
                 <Route path="/made" element={<Made />} />
                 <Route path="/new" element={<New />} />
                 <Route path="/today" element={<Today />} />
+                <Route path="/best" element={<Best />} />
 
             </Routes>
         </BrowserRouter>
