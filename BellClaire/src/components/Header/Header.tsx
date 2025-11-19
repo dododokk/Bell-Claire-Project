@@ -1,12 +1,20 @@
+import { useNavigate } from "react-router-dom";
 import styles from "./Header.module.css";
 import menu from "../../assets/Header/menu.svg";
 import logo from "../../assets/Header/logo.svg";
 
 const Header = () => {
-    return(
+    const navigate = useNavigate();
+
+    return (
         <div className={styles.header}>
-            <img src={menu} alt="menu" className={styles.headerMenu}/>
-            <img src={logo} alt="logo" className={styles.headerLogo}/>
+            <img src={menu} alt="menu" className={styles.headerMenu} />
+            <img
+                src={logo}
+                alt="logo"
+                onClick={() => navigate('/')}
+                className={styles.headerLogo}
+            />
         </div>
     )
 }
