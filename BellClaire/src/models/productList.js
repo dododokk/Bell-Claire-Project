@@ -6,6 +6,11 @@ import new1 from "../assets/New/new1.svg";
 import new2 from "../assets/New/new2.svg";
 import new3 from "../assets/New/new3.svg";
 import new4 from "../assets/New/new4.svg";
+import today1 from "../assets/Today/today1.svg";
+import today2 from "../assets/Today/today2.svg";
+import today3 from "../assets/Today/today3.svg";
+import today4 from "../assets/Today/today4.svg";
+
 
 const productList = [
     {
@@ -72,6 +77,41 @@ const productList = [
             {
                 id: 4,
                 image: new4,
+                feature: "[발레코어]",
+                name: "샤 포그 프릴 캉캉 sk",
+                price: 25350
+            },
+        ]
+    },
+    {
+        id: 2,
+        label: "오늘출발",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: today1,
+                feature: "[벨르 PICK / 블러효과 ☁]",
+                name: "베비 슬림 소프트 오프 NT",
+                price: 28900
+            },
+            {
+                id: 2,
+                image: today2,
+                feature: "[들뜸zero]",
+                name: "로라 원오프 슬랜더 TOP",
+                price: 22000
+            },
+            {
+                id: 3,
+                image: today3,
+                feature: "[수지니트]",
+                name: "yes or no 글램 오프 NT",
+                price: 79000
+            },
+            {
+                id: 4,
+                image: today4,
                 feature: "[발레코어]",
                 name: "샤 포그 프릴 캉캉 sk",
                 price: 25350

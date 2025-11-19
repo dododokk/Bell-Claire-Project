@@ -12,6 +12,7 @@ const LabelList = ({name}: LabelProps) => {
     const handleClick = (item: string) => {
         if (item==="MADE") navigate("/made");
         else if (item==="NEW 5%") navigate("/new");
+        else if (item==="오늘출발") navigate("/today");
     }
 
     return(
