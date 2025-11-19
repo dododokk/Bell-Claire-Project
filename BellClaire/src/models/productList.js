@@ -1,7 +1,7 @@
-import made1 from "../assets/Made/made1";
-import made2 from "../assets/Made/made2";
-import made3 from "../assets/Made/made3";
-import made4 from "../assets/Made/made4";
+import made1 from "../assets/Made/made1.svg";
+import made2 from "../assets/Made/made2.svg";
+import made3 from "../assets/Made/made3.svg";
+import made4 from "../assets/Made/made4.svg";
 
 const productList = [
     {

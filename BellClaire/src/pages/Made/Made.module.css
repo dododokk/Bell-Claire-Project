@@ -1,0 +1,37 @@
+.imgWrapper{
+    margin-top: 67px;
+    padding-top: 40px;
+}
+
+.coverImage{
+    display: block;
+    margin: 0 auto;
+}
+
+.labelName{
+    margin-top: 10vh;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 21px;
+}
+
+.label{
+    color: #87B4C9;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Kufam";
+}
+
+.productNum{
+    color: #4E4D4D;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.bottomLogo{
+    display: block;
+    margin: 0 auto;
+}

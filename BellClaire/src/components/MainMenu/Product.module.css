@@ -1,0 +1,25 @@
+.productWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+}
+
+.itemFeature{
+    margin-top: 2vh;
+    font-size: 20px;
+    font-family: "Inter";
+    text-align: center;
+}
+
+.itemName{
+    font-size: 16px;
+    font-family: "Inter";
+    text-align: center;
+}
+
+.itemPrice{
+    margin-top: 0.5vh;
+    font-size: 16px;
+    text-align: center;
+}
