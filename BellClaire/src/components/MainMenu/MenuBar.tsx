@@ -7,7 +7,7 @@ type Props = {
 };
 
 const MenuBar = ({ onClose }: Props) => {
-  const [page, setPage] = useState<"main" | "all">("main");
+  const [page, setPage] = useState<"main" | "all" | "top" | "bottom" | "dress" | "outer">("main");
 
   return (
     <>
@@ -48,16 +48,80 @@ const MenuBar = ({ onClose }: Props) => {
               </button>
 
               <span className={styles.allView}>ALL 모두 보기</span>
-            
-              <Link to="/top">TOPS &gt;</Link>
-              <Link to="/bottom">BOTTOM &gt;</Link>
-              <Link to="/dress">DRESS</Link>
-              <Link to="/outer">OUTER</Link>
+
+              <button
+                className={styles.linkBtn2}
+                onClick={() => setPage("top")}
+              >
+                TOPS &gt;
+              </button>
+              <button
+                className={styles.linkBtn2}
+                onClick={() => setPage("bottom")}
+              >
+                BOTTOM &gt;
+              </button>
+              <button
+                className={styles.linkBtn2}
+                onClick={() => setPage("dress")}
+              >
+                DRESS &gt;
+              </button>
+              <button
+                className={styles.linkBtn2}
+                onClick={() => setPage("outer")}
+              >
+                OUTER &gt;
+              </button>
               <Link to="/shoes">SHOES</Link>
               <Link to="/acc">ACC.</Link>
             </>
           )}
 
+          {page === "top" && (
+            <>
+              <button className={styles.backBtn} onClick={() => setPage("all")}>
+                &lt; 이전
+              </button>
+
+              <Link to="/tshirt">T-SHIRT</Link>
+              <Link to="/blouse">BLOUSE / SHIRT</Link>
+            </>
+          )}
+
+          {page === "bottom" && (
+            <>
+              <button className={styles.backBtn} onClick={() => setPage("all")}>
+                &lt; 이전
+              </button>
+
+              <Link to="/pants">PANTS</Link>
+              <Link to="/skirt">SKIRT</Link>
+            </>
+          )}
+
+          {page === "dress" && (
+            <>
+              <button className={styles.backBtn} onClick={() => setPage("all")}>
+                &lt; 이전
+              </button>
+
+              <Link to="/mini">Mini</Link>
+              <Link to="/long">Long & Midi</Link>
+            </>
+          )}
+
+          {page === "outer" && (
+            <>
+              <button className={styles.backBtn} onClick={() => setPage("all")}>
+                &lt; 이전
+              </button>
+
+              <Link to="/jacket">Jacket</Link>
+              <Link to="/jumper">Jumper</Link>
+              <Link to="/cardigan">Cardigan</Link>
+            </>
+          )}
         </nav>
       </aside>
     </>

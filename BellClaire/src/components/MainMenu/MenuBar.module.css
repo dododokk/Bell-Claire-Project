@@ -100,17 +100,37 @@
     display: block;
 }
 
-.menuList[data-page="all"] a {
+.menuList[data-page="all"] a, .menuList[data-page="top"] a,
+.menuList[data-page="bottom"] a, .menuList[data-page="dress"] a,
+.menuList[data-page="outer"] a {
     color: black;
     font-weight: 400;
     font-size: 16px;
     font-family: "Inter";
 }
 
-.menuList[data-page="all"] a:hover {
+.menuList[data-page="all"] a:hover, .menuList[data-page="top"] a:hover,
+.menuList[data-page="bottom"] a:hover, .menuList[data-page="dress"] a:hover,
+.menuList[data-page="outer"] a:hover{
     cursor: pointer;
     color: #87B4C9;
     font-size: 16px;
     font-weight: 400;
     font-family: "Inter";
+}
+
+.linkBtn2{
+    background: none;
+    border: none;
+    padding: 0;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Inter";
+    cursor: pointer;
+    text-align: left;
+}
+
+.linkBtn2:hover{
+    color: #87B4C9;
 }

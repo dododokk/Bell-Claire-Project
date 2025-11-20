@@ -14,6 +14,10 @@ import best1 from "../assets/Best/best1.svg";
 import best2 from "../assets/Best/best2.svg";
 import best3 from "../assets/Best/best3.svg";
 import best4 from "../assets/Best/best4.svg";
+import ootd1 from "../assets/OOTD/ootd1.svg";
+import ootd2 from "../assets/OOTD/ootd2.svg";
+import ootd3 from "../assets/OOTD/ootd3.svg";
+import ootd4 from "../assets/OOTD/ootd4.svg";
 
 const productList = [
     {
@@ -153,6 +157,49 @@ const productList = [
                 feature: "",
                 name: "반 하이 원턱 하프 PT",
                 price: 36000
+            },
+        ]
+    },
+    {
+        id: 5,
+        label: "오늘 뭐 입지?",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: ootd1,
+                feature: "[오늘의 코디/벨르 PICK]",
+                name: "벨르 세틴 아일렛 TOP 코디set",
+                sale: "25%",
+                price: 210000,
+                salePrice: 157500
+            },
+            {
+                id: 2,
+                image: ootd2,
+                feature: "[여리여리]",
+                name: "모카 라떼 루즈 CD 코디set",
+                sale: "20%",
+                price: 140000,
+                salePrice: 112000
+            },
+            {
+                id: 3,
+                image: ootd3,
+                feature: "",
+                name: "모던 프렙 셋업 JK 코디set",
+                sale: "20%",
+                price: 123000,
+                salePrice: 99120
+            },
+            {
+                id: 4,
+                image: best4,
+                feature: "",
+                name: "히포 닷 라운드 니트 CD 코디set",
+                sale: "20%",
+                price: 110300,
+                salePrice: 88240
             },
         ]
     }
