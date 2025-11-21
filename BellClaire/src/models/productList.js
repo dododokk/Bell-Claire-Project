@@ -202,7 +202,42 @@ const productList = [
                 salePrice: 88240
             },
         ]
-    }
+    },
+    {
+        id: 6,
+        label: "T-Shirt",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: best1,
+                feature: "[MADE]",
+                name: "fiancée organza rich long sk",
+                price: 57000
+            },
+            {
+                id: 2,
+                image: best2,
+                feature: "[벨르 PICK/스판]",
+                name: "스웨이드 JP",
+                price: 64000
+            },
+            {
+                id: 3,
+                image: best3,
+                feature: "[벨르 PICK]",
+                name: "나일론 리본 스트링 PT",
+                price: 32000
+            },
+            {
+                id: 4,
+                image: best4,
+                feature: "",
+                name: "반 하이 원턱 하프 PT",
+                price: 36000
+            },
+        ]
+    },
 ]
 
 export default productList;

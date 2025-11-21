@@ -1,19 +1,46 @@
+import { useState } from "react";
 import styles from "./Home.module.css";
 import Header from "../../components/Header/Header";
 import mainPhoto from "../../assets/Home/mainPhoto.svg";
+import asidePhoto1 from "../../assets/Home/asidePhoto1.svg";
+import asidePhoto2 from "../../assets/Home/asidePhoto2.svg";
+import asidePhoto3 from "../../assets/Home/asidePhoto3.svg";
 import background from "../../assets/Home/background.svg";
 import item from "../../assets/Home/item.svg";
 import store from "../../assets/Home/store.svg";
+import store2 from "../../assets/Home/store2.svg";
+import store3 from "../../assets/Home/store3.svg";
+import store4 from "../../assets/Home/store4.svg";
 import call from "../../assets/Home/call.svg";
 import car from "../../assets/Home/car.svg";
 import bottomLabel from "../../assets/bottomLogo.svg";
 
+const storeImages = [store, store2, store3, store4];
+
 const Home = () => {
+    const [storeIndex, setStoreIndex] = useState(0);
+
+    const handlePrevStore = () => {
+        setStoreIndex((prev) =>
+            (prev - 1 + storeImages.length) % storeImages.length);
+    };
+
+    const handleNextStore = () => {
+        setStoreIndex((prev) =>
+            (prev + 1) % storeImages.length);
+    };
+
     return (
         <>
             <Header />
             <div className={styles.mainImage}>
                 <img src={mainPhoto} alt="메인사진" />
+                <aside className={styles.asideImage}>
+                    <img src={asidePhoto1} alt="사이드사진" />
+                    <img src={asidePhoto2} alt="사이드사진" />
+                    <img src={asidePhoto3} alt="사이드사진" />
+                    <p className={styles.explanation}>Bell Clair ‘s 2026 s/s Look Book</p>
+                </aside>
             </div>
             <div className={styles.outerWrapper}>
                 <div className={styles.barWrapper}>
@@ -35,10 +62,29 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <hr className={styles.hr}/>
+            <hr className={styles.hr} />
             <div className={styles.storeWrapper}>
-                <img src={store} alt="매장사진" className={styles.store} />
-                <div className={styles.info}>
+                <div className={styles.storeSlider}>
+                    <button
+                        type="button"
+                        className={styles.storeArrow}
+                        onClick={handlePrevStore}
+                    >
+                        ‹
+                    </button>
+                    <img
+                        src={storeImages[storeIndex]}
+                        alt="매장사진"
+                        className={styles.store}
+                    />
+                    <button
+                        type="button"
+                        className={styles.storeArrow}
+                        onClick={handleNextStore}
+                    >
+                        ›
+                    </button>
+                </div>                <div className={styles.info}>
                     <p className={styles.title}>BELL CLAIR 본점 소개 안내</p>
                     <p className={styles.basic}>
                         서울 성동구 성수동2가 322-13 1F<br />
@@ -55,13 +101,13 @@ const Home = () => {
                     <p className={styles.storeFeature}>부드러운 곡선과 투명한 빛으로 완성된 공간, Bell Clair</p>
                     <p className={styles.storeDetails}>
                         - 부드러운 곡선과 파스텔 핑크 컬러가 조화를 이루며, 브랜드가 추구하는 우아함과 사랑스러움을 공간 전체에 담아냄
-                        <br /><br/>
+                        <br /><br />
                         - 매일 오늘 뭐입지 컨셉의 옷 DP
                     </p>
                     <p className={styles.lastMent}>동화 속 한 장면처럼 고객이 매장에 들어서는 순간부터 특별한 설렘 제공</p>
                 </div>
             </div>
-            <hr className={styles.hr}/>
+            <hr className={styles.hr} />
             <img src={bottomLabel} alt="Bell Clair 로고" className={styles.bottomLogo} />
         </>
     )
