@@ -18,8 +18,30 @@ import ootd1 from "../assets/OOTD/ootd1.svg";
 import ootd2 from "../assets/OOTD/ootd2.svg";
 import ootd3 from "../assets/OOTD/ootd3.svg";
 import ootd4 from "../assets/OOTD/ootd4.svg";
+import tshirt1 from "../assets/Tshirt/tshirt1.svg";
+import tshirt2 from "../assets/Tshirt/tshirt2.svg";
+import tshirt3 from "../assets/Tshirt/tshirt3.svg";
+import tshirt4 from "../assets/Tshirt/tshirt4.svg";
 
-const productList = [
+
+export type ProductItem = {
+    id: number;
+    image: string;
+    feature: string;
+    name: string;
+    price: number;
+    sale?: string;
+    salePrice?: number;
+}
+
+export type ProductCategory = {
+    id: number;
+    label: string;
+    productNum: number;
+    items: ProductItem[];
+}
+
+const productList: ProductCategory[] = [
     {
         id: 1,
         label: "MADE",
@@ -194,7 +216,7 @@ const productList = [
             },
             {
                 id: 4,
-                image: best4,
+                image: ootd4,
                 feature: "",
                 name: "히포 닷 라운드 니트 CD 코디set",
                 sale: "20%",
@@ -210,31 +232,31 @@ const productList = [
         items: [
             {
                 id: 1,
-                image: best1,
-                feature: "[MADE]",
-                name: "fiancée organza rich long sk",
-                price: 57000
+                image: tshirt1,
+                feature: "[MADE/발레코어]",
+                name: "벨르 세틴 아일렛 TOP",
+                price: 44000
             },
             {
                 id: 2,
-                image: best2,
-                feature: "[벨르 PICK/스판]",
-                name: "스웨이드 JP",
-                price: 64000
+                image: tshirt2,
+                feature: "",
+                name: "에트 여리핏 셔링반팔 TOP",
+                price: 23000
             },
             {
                 id: 3,
-                image: best3,
-                feature: "[벨르 PICK]",
-                name: "나일론 리본 스트링 PT",
-                price: 32000
+                image: tshirt3,
+                feature: "",
+                name: "twin dot 시스루 레이어 TOP",
+                price: 39000
             },
             {
                 id: 4,
-                image: best4,
-                feature: "",
-                name: "반 하이 원턱 하프 PT",
-                price: 36000
+                image: tshirt4,
+                feature: "[발레코어🩰]",
+                name: "롤링 딥 레이스 슬림 TOP",
+                price: 59900
             },
         ]
     },

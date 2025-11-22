@@ -1,4 +1,4 @@
-import styles from "./Ootd.module.css";
+import styles from "./Tshirt.module.css";
 import Header from "../../components/Header/Header";
 import LabelList from "../../components/MainMenu/LabelList";
 import Product from "../../components/MainMenu/Product";
@@ -9,8 +9,7 @@ const Ootd = () => {
         <>
             <Header />
             <div className={styles.labelName}>
-                <span className={styles.label}>오늘 뭐 입지?</span>
-                <span className={styles.productNum}>4 product</span>
+                <span className={styles.label}>T-shirt</span>
             </div>
             <LabelList name="오늘 뭐 입지?" />
             <Product label="오늘 뭐 입지?" />

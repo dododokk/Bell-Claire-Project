@@ -23,3 +23,23 @@
     font-size: 16px;
     text-align: center;
 }
+
+.saleWrapper{
+    margin-top: 0.5vh;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale{
+    font-weight: bold;
+    color: #71A0CC;
+}
+
+.price{
+    text-decoration: line-through;
+}

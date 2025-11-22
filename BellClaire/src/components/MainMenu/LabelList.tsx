@@ -14,7 +14,7 @@ const LabelList = ({ name }: LabelProps) => {
         else if (item === "NEW 5%") navigate("/new");
         else if (item === "오늘출발") navigate("/today");
         else if (item === "BEST 30") navigate("/best");
-
+        else if (item === "오늘 뭐 입지?") navigate("/ootd");
     }
 
     return (
