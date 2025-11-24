@@ -6,10 +6,11 @@ import New from "./New/New";
 import Today from "./Today/Today";
 import Best from "./Best/Best";
 import Ootd from "./OOTD/Ootd";
-import Tshirt from "./Tshirt/Tshirt";
-import Blouse from "./Blouse/Blouse";
+import Tshirt from "./Top/Tshirt/Tshirt";
+import Blouse from "./Top/Blouse/Blouse";
 import Acc from "./Acc/Acc";
 import Dress from "./Dress/Dress";
+import Top from "./Top/Top";
 
 const Router = () => {
     return (
@@ -26,6 +27,7 @@ const Router = () => {
                 <Route path="/blouse" element={<Blouse/>} />
                 <Route path="/acc" element={<Acc/>} />
                 <Route path="/dress" element={<Dress/>} />
+                <Route path="/top" element={<Top/>} />
             </Routes>
         </BrowserRouter>
     );
