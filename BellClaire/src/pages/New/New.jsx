@@ -5,6 +5,8 @@ import LabelList from "../../components/MainMenu/LabelList";
 import Product from "../../components/MainMenu/Product";
 import bottomLabel from "../../assets/bottomLogo.svg";
 
+const labels = ["MADE", "NEW 5%", "오늘출발", "BEST 30", "오늘 뭐 입지?", "ALL"];
+
 const New = () => {
     return (
         <>
@@ -16,7 +18,7 @@ const New = () => {
                 <span className={styles.label}>NEW 5%</span>
                 <span className={styles.productNum}>4 product</span>
             </div>
-            <LabelList name="NEW 5%" />
+            <LabelList labels={labels} name="NEW 5%" />
             <Product label="NEW 5%" />
             <img src={bottomLabel} alt="Bell Clair 로고" className={styles.bottomLogo}/>
         </>

@@ -101,7 +101,7 @@
 }
 
 .menuList[data-page="all"] a, .menuList[data-page="top"] a,
-.menuList[data-page="bottom"] a, .menuList[data-page="dress"] a,
+.menuList[data-page="bottom"] a, .menuList[data-page="skirt"] a,
 .menuList[data-page="outer"] a {
     color: black;
     font-weight: 400;
@@ -110,7 +110,7 @@
 }
 
 .menuList[data-page="all"] a:hover, .menuList[data-page="top"] a:hover,
-.menuList[data-page="bottom"] a:hover, .menuList[data-page="dress"] a:hover,
+.menuList[data-page="bottom"] a:hover, .menuList[data-page="skirt"] a:hover,
 .menuList[data-page="outer"] a:hover{
     cursor: pointer;
     color: #87B4C9;

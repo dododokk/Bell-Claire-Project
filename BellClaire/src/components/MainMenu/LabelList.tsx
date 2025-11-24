@@ -3,11 +3,10 @@ import styles from "./LabelList.module.css";
 
 type LabelProps = {
     name: string;
+    labels: string[];
 };
 
-const labels = ["MADE", "NEW 5%", "오늘출발", "BEST 30", "오늘 뭐 입지?", "ALL"];
-
-const LabelList = ({ name }: LabelProps) => {
+const LabelList = ({ labels, name }: LabelProps) => {
     const navigate = useNavigate();
     const handleClick = (item: string) => {
         if (item === "MADE") navigate("/made");
@@ -15,6 +14,11 @@ const LabelList = ({ name }: LabelProps) => {
         else if (item === "오늘출발") navigate("/today");
         else if (item === "BEST 30") navigate("/best");
         else if (item === "오늘 뭐 입지?") navigate("/ootd");
+        else if (item === "T-shirt") navigate("/tshirt");
+        else if (item === "Blouse/Shirt") navigate("/blouse");
+        else if  (item === "ACC") navigate("/acc");
+        else if (item === "DRESS") navigate("/dress");
+        else if (item === "TOP") navigate("/tshirt");
     }
 
     return (

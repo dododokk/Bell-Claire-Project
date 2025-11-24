@@ -22,7 +22,18 @@ import tshirt1 from "../assets/Tshirt/tshirt1.svg";
 import tshirt2 from "../assets/Tshirt/tshirt2.svg";
 import tshirt3 from "../assets/Tshirt/tshirt3.svg";
 import tshirt4 from "../assets/Tshirt/tshirt4.svg";
-
+import blouse1 from "../assets/Blouse/blouse1.svg";
+import blouse2 from "../assets/Blouse/blouse2.svg";
+import blouse3 from "../assets/Blouse/blouse3.svg";
+import blouse4 from "../assets/Blouse/blouse4.svg";
+import acc1 from "../assets/Acc/acc1.svg";
+import acc2 from "../assets/Acc/acc2.svg";
+import acc3 from "../assets/Acc/acc3.svg";
+import acc4 from "../assets/Acc/acc4.svg";
+import dress1 from "../assets/Dress/dress1.svg";
+import dress2 from "../assets/Dress/dress2.svg";
+import dress3 from "../assets/Dress/dress3.svg";
+import dress4 from "../assets/Dress/dress4.svg";
 
 export type ProductItem = {
     id: number;
@@ -227,7 +238,7 @@ const productList: ProductCategory[] = [
     },
     {
         id: 6,
-        label: "T-Shirt",
+        label: "T-shirt",
         productNum: 4,
         items: [
             {
@@ -256,6 +267,111 @@ const productList: ProductCategory[] = [
                 image: tshirt4,
                 feature: "[발레코어🩰]",
                 name: "롤링 딥 레이스 슬림 TOP",
+                price: 59900
+            },
+        ]
+    },
+    {
+        id: 7,
+        label: "Blouse/Shirt",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: blouse1,
+                feature: "",
+                name: "포인리본라인 셔츠",
+                price: 64000
+            },
+            {
+                id: 2,
+                image: blouse2,
+                feature: "",
+                name: "샐러드 인 라벨 시스루 BL",
+                price: 41000
+            },
+            {
+                id: 3,
+                image: blouse3,
+                feature: "[MADE]",
+                name: "Gossip girl slim eyelet shirt (tie set)",
+                price: 79000
+            },
+            {
+                id: 4,
+                image: blouse4,
+                feature: "[MADE]",
+                name: "shirt-pointed dress bustier set",
+                price: 59900
+            },
+        ]
+    },
+    {
+        id: 8,
+        label: "Acc",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: acc1,
+                feature: "",
+                name: "Preto twinkle high knee socks",
+                price: 3900
+            },
+            {
+                id: 2,
+                image: acc2,
+                feature: "",
+                name: "보부상 투웨이 빅사이즈 숄더백",
+                price: 35900
+            },
+            {
+                id: 3,
+                image: acc3,
+                feature: "",
+                name: "에스닉 라운디 빈티지 벨트",
+                price: 20000
+            },
+            {
+                id: 4,
+                image: acc4,
+                feature: "",
+                name: "핑크 스웨이드 보부상 호보백",
+                price: 39900
+            },
+        ]
+    },
+    {
+        id: 9,
+        label: "Dress",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: dress1,
+                feature: "[MADE/벨르 PICK]",
+                name: "셔츠 쉬폰 포인 뷔스티에 OPS",
+                price: 59900
+            },
+            {
+                id: 2,
+                image: dress2,
+                feature: "[러블리]",
+                name: "메이플 언발 OPS",
+                price: 79000
+            },
+            {
+                id: 3,
+                image: dress3,
+                feature: "",
+                name: "헤이지 올 레이스 OPS",
+                price: 59000
+            },
+            {
+                id: 4,
+                image: dress4,
+                feature: "[여리여리/볼륨]",
+                name: "칠링러브 슬림 OPS",
                 price: 59900
             },
         ]

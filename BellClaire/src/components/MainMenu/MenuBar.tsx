@@ -7,7 +7,7 @@ type Props = {
 };
 
 const MenuBar = ({ onClose }: Props) => {
-  const [page, setPage] = useState<"main" | "all" | "top" | "bottom" | "dress" | "outer">("main");
+  const [page, setPage] = useState<"main" | "all" | "top" | "bottom" | "skirt" | "outer">("main");
 
   return (
     <>
@@ -61,12 +61,7 @@ const MenuBar = ({ onClose }: Props) => {
               >
                 BOTTOM &gt;
               </button>
-              <button
-                className={styles.linkBtn2}
-                onClick={() => setPage("dress")}
-              >
-                DRESS &gt;
-              </button>
+              <Link to="/dress">DRESS</Link>
               <button
                 className={styles.linkBtn2}
                 onClick={() => setPage("outer")}
@@ -96,13 +91,18 @@ const MenuBar = ({ onClose }: Props) => {
               </button>
 
               <Link to="/pants">PANTS</Link>
-              <Link to="/skirt">SKIRT</Link>
+              <button
+                className={styles.linkBtn2}
+                onClick={() => setPage("skirt")}
+              >
+                SKIRT &gt;
+              </button>
             </>
           )}
 
-          {page === "dress" && (
+          {page === "skirt" && (
             <>
-              <button className={styles.backBtn} onClick={() => setPage("all")}>
+              <button className={styles.backBtn} onClick={() => setPage("bottom")}>
                 &lt; 이전
               </button>
 
