@@ -106,8 +106,9 @@ const MenuBar = ({ onClose }: Props) => {
                 &lt; 이전
               </button>
 
+              <Link to="/long">Long</Link>
               <Link to="/mini">Mini</Link>
-              <Link to="/long">Long & Midi</Link>
+
             </>
           )}
 

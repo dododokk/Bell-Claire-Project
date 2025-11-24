@@ -11,6 +11,12 @@ import Blouse from "./Top/Blouse/Blouse";
 import Acc from "./Acc/Acc";
 import Dress from "./Dress/Dress";
 import Top from "./Top/Top";
+import Shoes from "./Shoes/Shoes";
+import Pants from "./Bottom/Pants/Pants";
+import Bottom from "./Bottom/Bottom";
+import Long from "./Bottom/Skirt/Long";
+import Mini from "./Bottom/Skirt/Mini";
+import Skirt from "./Bottom/Skirt/Skirt";
 
 const Router = () => {
     return (
@@ -22,12 +28,19 @@ const Router = () => {
                 <Route path="/new" element={<New />} />
                 <Route path="/today" element={<Today />} />
                 <Route path="/best" element={<Best />} />
-                <Route path="/ootd" element={<Ootd/>} />
-                <Route path="/tshirt" element={<Tshirt/>} />
-                <Route path="/blouse" element={<Blouse/>} />
-                <Route path="/acc" element={<Acc/>} />
-                <Route path="/dress" element={<Dress/>} />
-                <Route path="/top" element={<Top/>} />
+                <Route path="/ootd" element={<Ootd />} />
+                <Route path="/tshirt" element={<Tshirt />} />
+                <Route path="/blouse" element={<Blouse />} />
+                <Route path="/acc" element={<Acc />} />
+                <Route path="/dress" element={<Dress />} />
+                <Route path="/top" element={<Top />} />
+                <Route path="/shoes" element={<Shoes />} />
+                <Route path="/pants" element={<Pants />} />
+                <Route path="/bottom" element={<Bottom />} />
+                <Route path="/long" element={<Long />} />
+                <Route path="/mini" element={<Mini />} />
+                <Route path="/skirt" element={<Skirt />} />
+
             </Routes>
         </BrowserRouter>
     );

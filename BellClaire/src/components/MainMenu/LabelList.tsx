@@ -19,6 +19,11 @@ const LabelList = ({ labels, name }: LabelProps) => {
         else if  (item === "ACC") navigate("/acc");
         else if (item === "DRESS") navigate("/dress");
         else if (item === "TOP") navigate("/top");
+        else if (item === "SHOES") navigate("/shoes");
+        else if (item === "Pants") navigate("/pants");
+        else if (item === "Skirt") navigate("/skirt");
+        else if (item === "Long") navigate("/long");
+        else if (item === "Mini") navigate("/mini");
     }
 
     return (

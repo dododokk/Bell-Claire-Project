@@ -34,6 +34,23 @@ import dress1 from "../assets/Dress/dress1.svg";
 import dress2 from "../assets/Dress/dress2.svg";
 import dress3 from "../assets/Dress/dress3.svg";
 import dress4 from "../assets/Dress/dress4.svg";
+import shoes1 from "../assets/Shoes/shoes1.svg";
+import shoes2 from "../assets/Shoes/shoes2.svg";
+import shoes3 from "../assets/Shoes/shoes3.svg";
+import shoes4 from "../assets/Shoes/shoes4.svg";
+import pants1 from "../assets/Pants/pants1.svg";
+import pants2 from "../assets/Pants/pants2.svg";
+import pants3 from "../assets/Pants/pants3.svg";
+import pants4 from "../assets/Pants/pants4.svg";
+import long1 from "../assets/Skirt/long1.svg";
+import long2 from "../assets/Skirt/long2.svg";
+import long3 from "../assets/Skirt/long3.svg";
+import long4 from "../assets/Skirt/long4.svg";
+import mini1 from "../assets/Skirt/mini1.svg";
+import mini2 from "../assets/Skirt/mini2.svg";
+import mini3 from "../assets/Skirt/mini3.svg";
+import mini4 from "../assets/Skirt/mini4.svg";
+
 
 export type ProductItem = {
     id: number;
@@ -373,6 +390,146 @@ const productList: ProductCategory[] = [
                 feature: "[여리여리/볼륨]",
                 name: "칠링러브 슬림 OPS",
                 price: 59900
+            },
+        ]
+    },
+    {
+        id: 10,
+        label: "Shoes",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: shoes1,
+                feature: "",
+                name: "데일리 스트랩 통굽 구두",
+                price: 54000
+            },
+            {
+                id: 2,
+                image: shoes2,
+                feature: "",
+                name: " pierce eyelet stiletto heel ",
+                price: 54700
+            },
+            {
+                id: 3,
+                image: shoes3,
+                feature: "",
+                name: "라운드토 무광 레이스업 리본 장화",
+                price: 27000
+            },
+            {
+                id: 4,
+                image: shoes4,
+                feature: "",
+                name: "ballet ribbon pearl &mash flat",
+                price: 49800
+            },
+        ]
+    },
+    {
+        id: 11,
+        label: "Pants",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: pants1,
+                feature: "[스판/레이온]",
+                name: "랩 부츠컷 레이온 PT",
+                price: 44000
+            },
+            {
+                id: 2,
+                image: pants2,
+                feature: "",
+                name: "치크 벌룬 체크 숏 PT",
+                price: 18000
+            },
+            {
+                id: 3,
+                image: pants3,
+                feature: "",
+                name: "마들렌 레이스 트레이닝 쇼트 pt",
+                price: 15800
+            },
+            {
+                id: 4,
+                image: pants4,
+                feature: "",
+                name: "캐시 pearl 에리얼 일자 PT",
+                price: 89900
+            },
+        ]
+    },
+    {
+        id: 12,
+        label: "Long",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: long1,
+                feature: "[MADE]",
+                name: "fiancée organza rich long sk",
+                price: 57000
+            },
+            {
+                id: 2,
+                image: long2,
+                feature: "",
+                name: "화이트 오브 플럼 롱 SK",
+                price: 38000
+            },
+            {
+                id: 3,
+                image: long3,
+                feature: "",
+                name: "메리 온 베일 리본 시스루 SK",
+                price: 42300
+            },
+            {
+                id: 4,
+                image: long4,
+                feature: "[러블리]",
+                name: "슈가 화이트 프릴 SK",
+                price: 33000
+            },
+        ]
+    },
+    {
+        id: 13,
+        label: "Mini",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: mini1,
+                feature: "[발레코어🩰]",
+                name: "디픈 쉬머 새틴 스트랩 SK",
+                price: 30500
+            },
+            {
+                id: 2,
+                image: mini2,
+                feature: "",
+                name: "콜링 쉬어 캉캉 프릴 미니 SK",
+                price: 51000
+            },
+            {
+                id: 3,
+                image: mini3,
+                feature: "",
+                name: "젤린 소프트 캉캉 미니 SK",
+                price: 29800
+            },
+            {
+                id: 4,
+                image: long4,
+                feature: "[발레코어🩰]",
+                name: "샤 포그 프릴 캉캉 sk",
+                price: 25350
             },
         ]
     },
