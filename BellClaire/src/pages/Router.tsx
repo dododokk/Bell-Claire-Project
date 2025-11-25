@@ -17,6 +17,11 @@ import Bottom from "./Bottom/Bottom";
 import Long from "./Bottom/Skirt/Long";
 import Mini from "./Bottom/Skirt/Mini";
 import Skirt from "./Bottom/Skirt/Skirt";
+import Jumper from "./Outer/Jumper/Jumper";
+import Jacket from "./Outer/Jacket/Jacket";
+import Cardigan from "./Outer/Cardigan/Cardigan";
+import Outer from "./Outer/Outer";
+import All from "./All";
 
 const Router = () => {
     return (
@@ -40,7 +45,11 @@ const Router = () => {
                 <Route path="/long" element={<Long />} />
                 <Route path="/mini" element={<Mini />} />
                 <Route path="/skirt" element={<Skirt />} />
-
+                <Route path="/jacket" element={<Jacket/>} />
+                <Route path="/jumper" element={<Jumper/>} />
+                <Route path="/cardigan" element={<Cardigan/>} />
+                <Route path="/outer" element={<Outer/>} />
+                <Route path="/all" element={<All/>} />
             </Routes>
         </BrowserRouter>
     );

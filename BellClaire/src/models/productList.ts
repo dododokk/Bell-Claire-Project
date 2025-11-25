@@ -50,6 +50,19 @@ import mini1 from "../assets/Skirt/mini1.svg";
 import mini2 from "../assets/Skirt/mini2.svg";
 import mini3 from "../assets/Skirt/mini3.svg";
 import mini4 from "../assets/Skirt/mini4.svg";
+import jacket1 from "../assets/Jacket/jacket1.svg";
+import jacket2 from "../assets/Jacket/jacket2.svg";
+import jacket3 from "../assets/Jacket/jacket3.svg";
+import jacket4 from "../assets/Jacket/jacket4.svg";
+import jumper1 from "../assets/Jumper/jumper1.svg";
+import jumper2 from "../assets/Jumper/jumper2.svg";
+import jumper3 from "../assets/Jumper/jumper3.svg";
+import jumper4 from "../assets/Jumper/jumper4.svg";
+import cardigan1 from "../assets/Cardigan/cardigan1.svg";
+import cardigan2 from "../assets/Cardigan/cardigan2.svg";
+import cardigan3 from "../assets/Cardigan/cardigan3.svg";
+import cardigan4 from "../assets/Cardigan/cardigan4.svg";
+
 
 
 export type ProductItem = {
@@ -526,10 +539,115 @@ const productList: ProductCategory[] = [
             },
             {
                 id: 4,
-                image: long4,
+                image: mini4,
                 feature: "[발레코어🩰]",
                 name: "샤 포그 프릴 캉캉 sk",
                 price: 25350
+            },
+        ]
+    },
+    {
+        id: 14,
+        label: "Jacket",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: jacket1,
+                feature: "",
+                name: "발레코어 스트링 데일리 시크 JK",
+                price: 64000
+            },
+            {
+                id: 2,
+                image: jacket2,
+                feature: "",
+                name: "뮤지엄 크롭 트위드 JK",
+                price: 73000
+            },
+            {
+                id: 3,
+                image: jacket3,
+                feature: "",
+                name: "리노 크롭 클래식 트위드 JK",
+                price: 77000
+            },
+            {
+                id: 4,
+                image: jacket4,
+                feature: "",
+                name: "본 내추럴 스웨이드 오버 JK",
+                price: 93000
+            },
+        ]
+    },
+    {
+        id: 15,
+        label: "Jumper",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: jumper1,
+                feature: "[장마룩]",
+                name: "여름 시스루 도트 후드 바람막이 JP",
+                price: 64000
+            },
+            {
+                id: 2,
+                image: jumper2,
+                feature: "",
+                name: "루즈핏 리본 하이넥 바람막이JP",
+                price: 73000
+            },
+            {
+                id: 3,
+                image: jumper3,
+                feature: "[벨르 PICK]",
+                name: "스웨이드 JP",
+                price: 77000
+            },
+            {
+                id: 4,
+                image: jumper4,
+                feature: "[유니크/러블리]",
+                name: "로슈아 셔링 프릴 나일론 후드 바람막이 JP",
+                price: 58900
+            },
+        ]
+    },
+    {
+        id: 16,
+        label: "Cardigan",
+        productNum: 4,
+        items: [
+            {
+                id: 1,
+                image: cardigan1,
+                feature: "",
+                name: "머스트 여리핏 썸머 니트 가디건",
+                price: 42800
+            },
+            {
+                id: 2,
+                image: cardigan2,
+                feature: "[크롭]",
+                name: "딥오션 케이블 꽈배기 CD",
+                price: 64000
+            },
+            {
+                id: 3,
+                image: cardigan3,
+                feature: "",
+                name: "모아 시스루 결 CD",
+                price: 21700
+            },
+            {
+                id: 4,
+                image: cardigan4,
+                feature: "",
+                name: "파리 온 니팅 볼레로 CD",
+                price: 25000
             },
         ]
     },
