@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import styles from "./mini.module.css";
+import styles from "./Mini.module.css";
 import Header from "../../../components/Header/Header";
 import LabelList from "../../../components/MainMenu/LabelList";
 import Product from "../../../components/MainMenu/Product";
