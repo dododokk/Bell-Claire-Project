@@ -1,0 +1,58 @@
+.optionWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.title {
+    font-family: "Inter";
+    font-size: 20px;
+    flex: 0 0 70px; 
+}
+
+/* selectBox + optionList 를 감싸는 영역 */
+.optionRight {
+    position: relative;   /* 자식 optionList 의 기준 */
+    width: 468px;
+}
+
+/* 선택 박스 */
+.selectBox {
+    background-color: #FFFBEE;
+    border: 0.5px solid #6A6A6A;
+    width: 100%;
+    height: 29px;
+    cursor: pointer;
+
+    display: flex;              /* 가운데 정렬용 */
+    align-items: center;        /* 세로 가운데 */
+    justify-content: center;    /* 가로 가운데 (왼쪽 정렬 원하면 flex-start) */
+}
+
+.selectedText {
+    font-size: 16px;
+    font-family: "Inter";
+    font-weight: 200;
+}
+
+/* 드롭다운 리스트 */
+.optionList {
+  position: absolute;   /* 아래 요소 안 밀리게 위에 겹쳐 띄우기 */
+  top: 100%;            /* selectBox 바로 아래 */
+  left: 0;
+  width: 100%;
+
+  border: 1px solid #ddd3b1;
+  background-color: #fffaf0;
+  list-style: none;
+  padding: 4px 0;
+  margin: 1px 0 0 0;
+  z-index: 10;
+}
+
+.optionItem {
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}

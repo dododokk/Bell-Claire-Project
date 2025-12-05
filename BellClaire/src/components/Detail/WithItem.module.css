@@ -1,0 +1,18 @@
+.itemWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+.price{
+    font-size: 16px;
+    font-family: 'Inter';
+    text-align: center;
+}

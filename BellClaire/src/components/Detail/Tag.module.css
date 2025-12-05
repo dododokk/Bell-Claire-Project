@@ -1,0 +1,14 @@
+.title {
+    padding: 25px;
+    color: white;
+    background-color: #ADA797;
+    font-family: "Inter";
+    font-size: 30px;
+    border-radius: 500px;
+    width: 450px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+}

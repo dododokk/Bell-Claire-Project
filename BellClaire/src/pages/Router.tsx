@@ -22,6 +22,7 @@ import Jacket from "./Outer/Jacket/Jacket";
 import Cardigan from "./Outer/Cardigan/Cardigan";
 import Outer from "./Outer/Outer";
 import All from "./All";
+import OPS from "./Detail/OPS";
 
 const Router = () => {
     return (
@@ -50,6 +51,7 @@ const Router = () => {
                 <Route path="/cardigan" element={<Cardigan/>} />
                 <Route path="/outer" element={<Outer/>} />
                 <Route path="/all" element={<All/>} />
+                <Route path="/ops" element={<OPS/>} />
             </Routes>
         </BrowserRouter>
     );

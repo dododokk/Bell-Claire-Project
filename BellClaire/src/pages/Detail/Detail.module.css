@@ -1,0 +1,84 @@
+.info{
+    display: flex;
+    flex-direction: row;
+    padding: 64px;
+    gap: 117px;
+}
+
+.mainImg{
+    width: 25%;
+}
+
+.infoText{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.title{
+    font-size: 30px;
+    font-family: 'Inter';
+}
+
+.price{
+    font-size: 22px;
+    font-family: 'Inter';
+    margin-bottom: 50px;
+}
+
+.explanation{
+    font-size: 19px;
+    font-family: 'Inter';
+}
+
+.optionWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.withItemWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imgWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.imgWrapper img{
+    width: 35%;
+}
+
+.imgSet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.guideWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guideWrapper img{
+    width: 35%;
+}
+
+.qnaWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qnaWrapper img{
+    width: 100%;
+}

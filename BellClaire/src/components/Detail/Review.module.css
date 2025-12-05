@@ -1,0 +1,50 @@
+.reviewWrapper {
+  width: 1000px;          /* 페이지 폭에 맞게 조절 */
+  margin: 20px auto 60px;
+  font-family: "Inter", sans-serif;
+}
+
+.summaryTitle {
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.barWrapper {
+  flex: 1;
+  height: 40px;
+  background-color: #F6F6F6; /* 연한 회색 */
+
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.barFill {
+  height: 100%;
+  background-color: #F1E2E5; /* 연한 핑크 */
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.barText {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.percent {
+  width: 50px;
+  text-align: right;
+  font-size: 14px;
+  color: #ADA797;
+  position: absolute;
+  right: 10px;
+}
