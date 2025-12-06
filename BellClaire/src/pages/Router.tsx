@@ -23,6 +23,7 @@ import Cardigan from "./Outer/Cardigan/Cardigan";
 import Outer from "./Outer/Outer";
 import All from "./All";
 import OPS from "./Detail/OPS";
+import Gossip from "./Detail/Gossip";
 
 const Router = () => {
     return (
@@ -52,6 +53,7 @@ const Router = () => {
                 <Route path="/outer" element={<Outer/>} />
                 <Route path="/all" element={<All/>} />
                 <Route path="/ops" element={<OPS/>} />
+                <Route path="/gossip" element={<Gossip/>} />
             </Routes>
         </BrowserRouter>
     );
