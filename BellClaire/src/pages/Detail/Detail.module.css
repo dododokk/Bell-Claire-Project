@@ -63,6 +63,12 @@
     gap: 5px;
 }
 
+.imgSet img {
+  height: 550px;      /* 원하는 값으로 */
+  width: auto;
+  object-fit: contain; /* 잘리는 거 싫으면 contain, 꽉 채우고 싶으면 cover */
+}
+
 .guideWrapper{
     display: flex;
     align-items: center;

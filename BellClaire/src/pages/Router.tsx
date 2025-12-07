@@ -24,6 +24,8 @@ import Outer from "./Outer/Outer";
 import All from "./All";
 import OPS from "./Detail/OPS";
 import Gossip from "./Detail/Gossip";
+import Organza from "./Detail/Organza";
+import Set from "./Detail/Set";
 
 const Router = () => {
     return (
@@ -47,13 +49,16 @@ const Router = () => {
                 <Route path="/long" element={<Long />} />
                 <Route path="/mini" element={<Mini />} />
                 <Route path="/skirt" element={<Skirt />} />
-                <Route path="/jacket" element={<Jacket/>} />
-                <Route path="/jumper" element={<Jumper/>} />
-                <Route path="/cardigan" element={<Cardigan/>} />
-                <Route path="/outer" element={<Outer/>} />
-                <Route path="/all" element={<All/>} />
-                <Route path="/ops" element={<OPS/>} />
-                <Route path="/gossip" element={<Gossip/>} />
+                <Route path="/jacket" element={<Jacket />} />
+                <Route path="/jumper" element={<Jumper />} />
+                <Route path="/cardigan" element={<Cardigan />} />
+                <Route path="/outer" element={<Outer />} />
+                <Route path="/all" element={<All />} />
+                <Route path="/ops" element={<OPS />} />
+                <Route path="/gossip" element={<Gossip />} />
+                <Route path="/organza" element={<Organza />} />
+                <Route path="/set" element={<Set />} />
+
             </Routes>
         </BrowserRouter>
     );

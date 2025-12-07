@@ -17,6 +17,12 @@ const Product = ({ label }: ProductProps) => {
         else if (itemName === "Gossip girl slim eyelet shirt (tie set)"){
             navigate("/gossip");
         }
+        else if (itemName === "fiancée organza rich long sk"){
+            navigate("/organza");
+        }
+        else if (itemName === "shirt-pointed dress bustier set"){
+            navigate("/set");
+        }
     }
     return (
         <div className={styles.productWrapper}>
