@@ -28,6 +28,8 @@ import Organza from "./Detail/Organza";
 import Set from "./Detail/Set";
 import Satin from "./Detail/Satin";
 import Socks from "./Detail/Socks";
+import Balletsk from "./Detail/Balletsk";
+import Bag from "./Detail/Bag";
 
 const Router = () => {
     return (
@@ -62,6 +64,8 @@ const Router = () => {
                 <Route path="/set" element={<Set />} />
                 <Route path="/satin" element={<Satin />} />
                 <Route path="/socks" element={<Socks />} />
+                <Route path="/balletsk" element={<Balletsk />} />
+                <Route path="/bag" element={<Bag />} />
 
             </Routes>
         </BrowserRouter>

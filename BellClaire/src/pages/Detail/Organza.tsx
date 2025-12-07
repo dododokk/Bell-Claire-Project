@@ -20,6 +20,7 @@ import sub10 from "../../assets/Detail/Organza/sub10.svg";
 import guide from "../../assets/Detail/guide.svg";
 import qna from "../../assets/Detail/Organza/qna.svg";
 import Review from "../../components/Detail/Review";
+import Header from "../../components/Header/Header";
 
 type ReviewItem = {
     text: string;
@@ -35,6 +36,7 @@ const reviewItems: ReviewItem[] = [
 const Organza = () => {
     return (
         <>
+            <Header />
             <div className={styles.info}>
                 <img src={main} alt="상품 메인 사진" className={styles.mainImg} />
                 <div className={styles.infoText}>

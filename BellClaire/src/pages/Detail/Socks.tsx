@@ -19,6 +19,7 @@ import sub9 from "../../assets/Detail/Socks/sub9.svg";
 import guide from "../../assets/Detail/guide.svg";
 import qna from "../../assets/Detail/Socks/qna.svg";
 import Review from "../../components/Detail/Review";
+import Header from "../../components/Header/Header";
 
 type ReviewItem = {
     text: string;
@@ -34,6 +35,7 @@ const reviewItems: ReviewItem[] = [
 const Socks = () => {
     return (
         <>
+            <Header />
             <div className={styles.info}>
                 <img src={main} alt="상품 메인 사진" className={styles.mainImg} />
                 <div className={styles.infoText}>
@@ -41,9 +43,9 @@ const Socks = () => {
                         <p className={styles.title}>Preto twinkle high knee socks</p>
                         <p className={styles.price}>3,900원</p>
                         <span className={styles.explanation}>
-                            -글리터 원사를 믹스해 예쁘게 반짝이는 양말<br/>
-                            -5가지의 다양한 색상<br/>
-                            -하루종일 쾌적한 부드러운 소재<br/>
+                            -글리터 원사를 믹스해 예쁘게 반짝이는 양말<br />
+                            -5가지의 다양한 색상<br />
+                            -하루종일 쾌적한 부드러운 소재<br />
                             -부드러운 촉감의 면과 땀이 나도 잘 마르는 폴리 원단 혼방
                         </span>
                     </div>

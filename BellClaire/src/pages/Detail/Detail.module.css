@@ -1,49 +1,50 @@
-.info{
+.info {
     display: flex;
     flex-direction: row;
     padding: 64px;
     gap: 117px;
+    margin-top: 67px;
 }
 
-.mainImg{
+.mainImg {
     width: 30%;
 }
 
-.infoText{
+.infoText {
     display: flex;
     flex-direction: column;
     gap: 200px;
 }
 
-.title{
+.title {
     font-size: 30px;
     font-family: 'Inter';
 }
 
-.price{
+.price {
     font-size: 22px;
     font-family: 'Inter';
     margin-bottom: 50px;
 }
 
-.explanation{
+.explanation {
     font-size: 19px;
     font-family: 'Inter';
 }
 
-.optionWrapper{
+.optionWrapper {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.withItemWrapper{
+.withItemWrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.imgWrapper{
+.imgWrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,35 +52,52 @@
     margin-bottom: 100px;
 }
 
-.imgWrapper img{
+.imgWrapper img {
     width: 35%;
 }
 
-.imgSet{
+.imgSet {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    /* gap: 5px; */
 }
 
 .imgSet img {
-  height: 550px;      /* 원하는 값으로 */
-  width: auto;
-  object-fit: contain; /* 잘리는 거 싫으면 contain, 꽉 채우고 싶으면 cover */
+    height: 550px;
+    /* 원하는 값으로 */
+    width: auto;
+    object-fit: contain;
+    /* 잘리는 거 싫으면 contain, 꽉 채우고 싶으면 cover */
 }
 
-.guideWrapper{
+.colorDec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.colorDec span {
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
+.guideWrapper {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.guideWrapper img{
+.guideWrapper img {
     width: 35%;
 }
 
-.qnaWrapper{
+.qnaWrapper {
     display: flex;
     align-items: center;
     justify-content: center;

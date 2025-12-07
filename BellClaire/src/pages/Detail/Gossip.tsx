@@ -29,6 +29,7 @@ import sub19 from "../../assets/Detail/Gossip/sub19.svg";
 import guide from "../../assets/Detail/guide.svg";
 import qna from "../../assets/Detail/Gossip/qna.svg";
 import Review from "../../components/Detail/Review";
+import Header from "../../components/Header/Header";
 
 type ReviewItem = {
     text: string;
@@ -44,6 +45,7 @@ const reviewItems: ReviewItem[] = [
 const Gossip = () => {
     return (
         <>
+            <Header />
             <div className={styles.info}>
                 <img src={main} alt="상품 메인 사진" className={styles.mainImg} />
                 <div className={styles.infoText}>

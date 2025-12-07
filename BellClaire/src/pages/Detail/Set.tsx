@@ -19,6 +19,7 @@ import sub9 from "../../assets/Detail/Set/sub9.svg";
 import guide from "../../assets/Detail/guide.svg";
 import qna from "../../assets/Detail/Set/qna.svg";
 import Review from "../../components/Detail/Review";
+import Header from "../../components/Header/Header";
 
 type ReviewItem = {
     text: string;
@@ -34,6 +35,7 @@ const reviewItems: ReviewItem[] = [
 const Set = () => {
     return (
         <>
+            <Header />
             <div className={styles.info}>
                 <img src={main} alt="상품 메인 사진" className={styles.mainImg} />
                 <div className={styles.infoText}>

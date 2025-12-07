@@ -20,6 +20,7 @@ import sub10 from "../../assets/Detail/Satin/sub10.svg";
 import guide from "../../assets/Detail/guide.svg";
 import qna from "../../assets/Detail/Satin/qna.svg";
 import Review from "../../components/Detail/Review";
+import Header from "../../components/Header/Header";
 
 type ReviewItem = {
     text: string;
@@ -35,6 +36,7 @@ const reviewItems: ReviewItem[] = [
 const Satin = () => {
     return (
         <>
+            <Header />
             <div className={styles.info}>
                 <img src={main} alt="상품 메인 사진" className={styles.mainImg} />
                 <div className={styles.infoText}>
@@ -42,10 +44,10 @@ const Satin = () => {
                         <p className={styles.title}>[MADE/발레코어] 벨르 세틴 아일렛 TOP</p>
                         <p className={styles.price}>44,000원</p>
                         <span className={styles.explanation}>
-                            - 고급스러운 엔틱무드의 fiancée satin & back eyelet top<br/>
-                            - 새틴 광택에 쉬어한 오간를 덧대어 신비로운 디테일<br/>
-                            - 스킨 or 이너 노출없이 꽈악 잡아주는 백 아일렛<br/>
-                            - 슬림한 상체라인 연출, 프론트 절개 detail<br/>
+                            - 고급스러운 엔틱무드의 fiancée satin & back eyelet top<br />
+                            - 새틴 광택에 쉬어한 오간를 덧대어 신비로운 디테일<br />
+                            - 스킨 or 이너 노출없이 꽈악 잡아주는 백 아일렛<br />
+                            - 슬림한 상체라인 연출, 프론트 절개 detail<br />
                             - 탈/착용 이지한 사이드 풀 오픈 지퍼
                         </span>
                     </div>

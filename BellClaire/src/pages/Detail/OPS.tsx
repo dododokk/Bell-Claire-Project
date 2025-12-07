@@ -13,10 +13,11 @@ import sub3 from "../../assets/Detail/OPS/sub3.svg";
 import guide from "../../assets/Detail/guide.svg";
 import qna from "../../assets/Detail/OPS/qna.svg";
 import Review from "../../components/Detail/Review";
+import Header from "../../components/Header/Header";
 
 type ReviewItem = {
-  text: string;
-  percent: number;
+    text: string;
+    percent: number;
 };
 
 const reviewItems: ReviewItem[] = [
@@ -28,6 +29,7 @@ const reviewItems: ReviewItem[] = [
 const OPS = () => {
     return (
         <>
+            <Header />
             <div className={styles.info}>
                 <img src={main} alt="상품 메인 사진" className={styles.mainImg} />
                 <div className={styles.infoText}>
@@ -67,9 +69,9 @@ const OPS = () => {
             <div className={styles.guideWrapper}>
                 <img src={guide} alt="가이드라인" />
             </div>
-            <Tag title="REVIEW"/>
+            <Tag title="REVIEW" />
             <Review items={reviewItems} />
-            <Tag title="Q&A"/>
+            <Tag title="Q&A" />
             <div className={styles.qnaWrapper}>
                 <img src={qna} alt="QnA" />
             </div>

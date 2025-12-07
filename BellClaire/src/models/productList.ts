@@ -631,8 +631,8 @@ const productList: ProductCategory[] = [
             {
                 id: 2,
                 image: cardigan2,
-                feature: "[크롭]",
-                name: "딥오션 케이블 꽈배기 CD",
+                feature: "[블랙핑크 제니 착용]",
+                name: "크롭 딥오션 CD",
                 price: 64000
             },
             {

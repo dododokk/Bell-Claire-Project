@@ -29,6 +29,12 @@ const Product = ({ label }: ProductProps) => {
         else if (itemName === "Preto twinkle high knee socks"){
             navigate("/socks");
         }
+        else if (itemName === "디픈 쉬머 새틴 스트랩 SK"){
+            navigate("/balletsk");
+        }
+        else if (itemName === "보부상 투웨이 빅사이즈 숄더백"){
+            navigate("/bag");
+        }
     }
     return (
         <div className={styles.productWrapper}>
