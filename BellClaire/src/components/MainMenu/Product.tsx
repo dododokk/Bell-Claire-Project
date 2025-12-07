@@ -23,6 +23,12 @@ const Product = ({ label }: ProductProps) => {
         else if (itemName === "shirt-pointed dress bustier set"){
             navigate("/set");
         }
+        else if (itemName === "벨르 세틴 아일렛 TOP"){
+            navigate("/satin");
+        }
+        else if (itemName === "Preto twinkle high knee socks"){
+            navigate("/socks");
+        }
     }
     return (
         <div className={styles.productWrapper}>

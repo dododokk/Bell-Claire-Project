@@ -26,6 +26,8 @@ import OPS from "./Detail/OPS";
 import Gossip from "./Detail/Gossip";
 import Organza from "./Detail/Organza";
 import Set from "./Detail/Set";
+import Satin from "./Detail/Satin";
+import Socks from "./Detail/Socks";
 
 const Router = () => {
     return (
@@ -58,6 +60,8 @@ const Router = () => {
                 <Route path="/gossip" element={<Gossip />} />
                 <Route path="/organza" element={<Organza />} />
                 <Route path="/set" element={<Set />} />
+                <Route path="/satin" element={<Satin />} />
+                <Route path="/socks" element={<Socks />} />
 
             </Routes>
         </BrowserRouter>
