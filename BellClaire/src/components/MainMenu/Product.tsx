@@ -53,6 +53,9 @@ const Product = ({ label }: ProductProps) => {
         else if (itemName === "데일리 스트랩 통굽 구두"){
             navigate("/heel");
         }
+        else if (itemName === "벨르 세틴 아일렛 TOP 코디set"){
+            navigate("/cody");
+        }
     }
     return (
         <div className={styles.productWrapper}>

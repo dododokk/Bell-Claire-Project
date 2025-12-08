@@ -24,12 +24,13 @@
 .price {
     font-size: 22px;
     font-family: 'Inter';
-    margin-bottom: 50px;
 }
 
 .explanation {
     font-size: 19px;
     font-family: 'Inter';
+    display: block;
+    margin-top: 50px;
 }
 
 .optionWrapper {
@@ -108,7 +109,7 @@
     margin: 0 auto;
 }
 
-.button{
+.button {
     background-color: #ADA797;
     cursor: pointer;
     border-radius: 8px;
@@ -118,6 +119,38 @@
     color: white;
 }
 
-.button:hover{
+.button:hover {
     background-color: #918c7f;
+}
+
+.set {
+    text-align: center;
+    font-family: "Inter";
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.saleWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.sale {
+    color: #87B4C9;
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.prevPrice {
+    text-decoration: line-through;
+    color: #6F6C6C;
+    font-size: 20px;
+}
+
+.salePrice{
+    font-family: 'Inter';
+    font-size: 30px;
 }

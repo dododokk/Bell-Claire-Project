@@ -36,6 +36,7 @@ import Poin from "./Detail/Poin";
 import Jp from "./Detail/Jp";
 import Sl from "./Detail/Sl";
 import Heel from "./Detail/Heel";
+import Cody from "./Detail/Cody";
 
 const Router = () => {
     return (
@@ -78,6 +79,7 @@ const Router = () => {
                 <Route path="/jp" element={<Jp />} />
                 <Route path="/sl" element={<Sl />} />
                 <Route path="/heel" element={<Heel />} />
+                <Route path="/cody" element={<Cody />} />
 
             </Routes>
         </BrowserRouter>
