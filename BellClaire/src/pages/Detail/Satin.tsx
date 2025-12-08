@@ -61,7 +61,7 @@ const Satin = () => {
             <Tag title="WITH ITEM" />
             <div className={styles.withItemWrapper}>
                 <WithItem title="[발레코어] 샤 포그 프릴 캉캉 sk" price={25350} img={withItem1} />
-                <WithItem title="[벨르 PICK/스판] 스웨이드 JP" price={64000} img={withItem2} />
+                <WithItem title="[벨르 PICK/스판] 스웨이드 JP" price={77000} img={withItem2} />
                 <WithItem title="라운드토 무광 레이스업 리본 장화" price={27000} img={withItem3} />
             </div>
             <Tag title="DETAIL" />

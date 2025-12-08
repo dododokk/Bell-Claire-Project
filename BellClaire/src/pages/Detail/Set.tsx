@@ -41,7 +41,7 @@ const Set = () => {
                 <img src={main} alt="상품 메인 사진" className={styles.mainImg} />
                 <div className={styles.infoText}>
                     <div>
-                        <p className={styles.title}>[MADE] shirt-pointed dress bustier set</p>
+                        <p className={styles.title}>[MADE] 셔츠 쉬폰 포인 뷔스티에 OPS</p>
                         <p className={styles.price}>59,900원</p>
                         <span className={styles.explanation}>
                             - 셔츠 원피스와 코디에 포인트가 되는 리본 뷔스티에 세트<br />

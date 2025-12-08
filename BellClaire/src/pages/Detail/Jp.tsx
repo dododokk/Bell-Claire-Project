@@ -48,7 +48,7 @@ const Jp = () => {
                         </span>
                     </div>
                     <div className={styles.optionWrapper}>
-                        <Option title="color" options={["white"]} />
+                        <Option title="color" options={["white", "mint"]} />
                         <Option title="size" options={["s", "m", "l", "xl"]} />
                     </div>
                 </div>

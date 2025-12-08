@@ -205,7 +205,7 @@ const productList: ProductCategory[] = [
                 image: best2,
                 feature: "[벨르 PICK/스판]",
                 name: "스웨이드 JP",
-                price: 64000
+                price: 77000
             },
             {
                 id: 3,
@@ -331,7 +331,7 @@ const productList: ProductCategory[] = [
                 id: 4,
                 image: blouse4,
                 feature: "[MADE]",
-                name: "shirt-pointed dress bustier set",
+                name: "베리얼 ribbon 퍼프 BL",
                 price: 59900
             },
         ]
@@ -603,7 +603,7 @@ const productList: ProductCategory[] = [
             {
                 id: 3,
                 image: jumper3,
-                feature: "[벨르 PICK]",
+                feature: "[벨르 PICK/스판]",
                 name: "스웨이드 JP",
                 price: 77000
             },

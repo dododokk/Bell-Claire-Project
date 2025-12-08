@@ -75,7 +75,7 @@ const Gossip = () => {
             </div>
             <Tag title="WITH ITEM" />
             <div className={styles.withItemWrapper}>
-                <WithItem title="[벨르 PICK/스판] 스웨이드 JP" price={64000} img={withItem1} />
+                <WithItem title="[벨르 PICK/스판] 스웨이드 JP" price={77000} img={withItem1} />
                 <WithItem title="젤린 소프트 캉캉 미니 SK" price={27900} img={withItem2} />
                 <WithItem title={`[MADE/벨르 PICK]\n셔츠 쉬폰 포인 뷔스티에 OPS`} price={59900} img={withItem3} />
             </div>

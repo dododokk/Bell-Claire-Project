@@ -20,7 +20,7 @@ const Product = ({ label }: ProductProps) => {
         else if (itemName === "fiancée organza rich long sk") {
             navigate("/organza");
         }
-        else if (itemName === "shirt-pointed dress bustier set") {
+        else if (itemName === "셔츠 쉬폰 포인 뷔스티에 OPS") {
             navigate("/set");
         }
         else if (itemName === "벨르 세틴 아일렛 TOP") {
