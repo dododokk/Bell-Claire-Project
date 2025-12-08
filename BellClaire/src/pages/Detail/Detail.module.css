@@ -107,3 +107,17 @@
     display: block;
     margin: 0 auto;
 }
+
+.button{
+    background-color: #ADA797;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 50px;
+    font-family: "Inter";
+    font-weight: 700;
+    color: white;
+}
+
+.button:hover{
+    background-color: #918c7f;
+}

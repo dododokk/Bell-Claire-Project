@@ -450,7 +450,7 @@ const productList: ProductCategory[] = [
                 id: 1,
                 image: pants1,
                 feature: "[스판/레이온]",
-                name: "랩 부츠컷 레이온 PT",
+                name: "빈트 랩 플리츠 버튼 맥시 SL",
                 price: 44000
             },
             {

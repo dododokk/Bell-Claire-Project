@@ -47,6 +47,7 @@ const OPS = () => {
                     <div className={styles.optionWrapper}>
                         <Option title="color" options={["white"]} />
                         <Option title="size" options={["free"]} />
+                        <button className={styles.button}>구매하기</button>
                     </div>
                 </div>
             </div>

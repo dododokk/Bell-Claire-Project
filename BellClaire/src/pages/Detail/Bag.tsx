@@ -49,6 +49,7 @@ const Bag = () => {
                     <div className={styles.optionWrapper}>
                         <Option title="color" options={["ivory"]} />
                         <Option title="size" options={["one"]} />
+                        <button className={styles.button}>구매하기</button>
                     </div>
                 </div>
             </div>

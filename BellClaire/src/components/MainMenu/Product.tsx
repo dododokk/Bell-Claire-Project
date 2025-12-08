@@ -47,6 +47,12 @@ const Product = ({ label }: ProductProps) => {
         else if (itemName === "로슈아 셔링 프릴 나일론 후드 바람막이 JP") {
             navigate("/jp");
         }
+        else if (itemName === "빈트 랩 플리츠 버튼 맥시 SL") {
+            navigate("/sl");
+        }
+        else if (itemName === "데일리 스트랩 통굽 구두"){
+            navigate("/heel");
+        }
     }
     return (
         <div className={styles.productWrapper}>

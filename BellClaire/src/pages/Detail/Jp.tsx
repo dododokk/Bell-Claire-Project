@@ -41,15 +41,16 @@ const Jp = () => {
                         <p className={styles.title}>{`[유니크/러블리]\n로슈아 셔링 프릴 나일론 후드 바람막이 JP`}</p>
                         <p className={styles.price}>58,900원</p>
                         <span className={styles.explanation}>
-                            - 은은하게 비치는 시스루 무드<br/>
-                            - 허리 스트링으로 실루엣 조절 가능<br/>
-                            - 가볍게 툭 걸치기 좋은 데일리 아우터<br/>
+                            - 은은하게 비치는 시스루 무드<br />
+                            - 허리 스트링으로 실루엣 조절 가능<br />
+                            - 가볍게 툭 걸치기 좋은 데일리 아우터<br />
                             - 러플 디테일로 귀여운 분위기 연출
                         </span>
                     </div>
                     <div className={styles.optionWrapper}>
                         <Option title="color" options={["white", "mint"]} />
                         <Option title="size" options={["s", "m", "l", "xl"]} />
+                        <button className={styles.button}>구매하기</button>
                     </div>
                 </div>
             </div>

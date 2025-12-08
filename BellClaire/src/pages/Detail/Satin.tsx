@@ -55,6 +55,7 @@ const Satin = () => {
                     <div className={styles.optionWrapper}>
                         <Option title="color" options={["pink", "yellow"]} />
                         <Option title="size" options={["free"]} />
+                        <button className={styles.button}>구매하기</button>
                     </div>
                 </div>
             </div>

@@ -34,6 +34,8 @@ import Balletjk from "./Detail/Balletjk";
 import Summer from "./Detail/Summer";
 import Poin from "./Detail/Poin";
 import Jp from "./Detail/Jp";
+import Sl from "./Detail/Sl";
+import Heel from "./Detail/Heel";
 
 const Router = () => {
     return (
@@ -74,6 +76,8 @@ const Router = () => {
                 <Route path="/summer" element={<Summer />} />
                 <Route path="/poin" element={<Poin />} />
                 <Route path="/jp" element={<Jp />} />
+                <Route path="/sl" element={<Sl />} />
+                <Route path="/heel" element={<Heel />} />
 
             </Routes>
         </BrowserRouter>

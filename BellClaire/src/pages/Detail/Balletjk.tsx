@@ -51,6 +51,7 @@ const Balletjk = () => {
                     <div className={styles.optionWrapper}>
                         <Option title="color" options={["black", "charcoal"]} />
                         <Option title="size" options={["s", "m", "l", "xl"]} />
+                        <button className={styles.button}>구매하기</button>
                     </div>
                 </div>
             </div>

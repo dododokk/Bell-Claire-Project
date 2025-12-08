@@ -1,34 +1,41 @@
-.productWrapper{
+.productWrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 3vh;
 }
 
-.productItem{
+.productItem {
     cursor: pointer;
+    width: 243px;
 }
 
-.itemFeature{
+.itemFeature {
     margin-top: 2vh;
     font-size: 20px;
     font-family: "Inter";
     text-align: center;
 }
 
-.itemName{
+.itemName {
     font-size: 16px;
     font-family: "Inter";
     text-align: center;
+    white-space: normal;
+    /* 줄바꿈 가능하게 */
+    word-break: keep-all;
+    /* 단어 단위로 적절히 줄바꿈 */
+    overflow-wrap: break-word;
+    /* 너무 길면 강제 줄바꿈 */
 }
 
-.itemPrice{
+.itemPrice {
     margin-top: 0.5vh;
     font-size: 16px;
     text-align: center;
 }
 
-.saleWrapper{
+.saleWrapper {
     margin-top: 0.5vh;
     font-size: 16px;
     text-align: center;
@@ -39,11 +46,11 @@
     justify-content: center;
 }
 
-.sale{
+.sale {
     font-weight: bold;
     color: #71A0CC;
 }
 
-.price{
+.price {
     text-decoration: line-through;
 }

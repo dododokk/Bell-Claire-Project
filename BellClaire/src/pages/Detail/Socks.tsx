@@ -53,6 +53,7 @@ const Socks = () => {
                     <div className={styles.optionWrapper}>
                         <Option title="color" options={["silver", "black"]} />
                         <Option title="size" options={["free"]} />
+                        <button className={styles.button}>구매하기</button>
                     </div>
                 </div>
             </div>
