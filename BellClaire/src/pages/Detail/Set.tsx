@@ -20,6 +20,7 @@ import guide from "../../assets/Detail/guide.svg";
 import qna from "../../assets/Detail/Set/qna.svg";
 import Review from "../../components/Detail/Review";
 import Header from "../../components/Header/Header";
+import bottomLabel from "../../assets/bottomLogo.svg";
 
 type ReviewItem = {
     text: string;
@@ -90,6 +91,7 @@ const Set = () => {
             <div className={styles.qnaWrapper}>
                 <img src={qna} alt="QnA" />
             </div>
+            <img src={bottomLabel} alt="Bell Clair 로고" className={styles.bottomLogo} />
         </>
     )
 }

@@ -30,6 +30,10 @@ import Satin from "./Detail/Satin";
 import Socks from "./Detail/Socks";
 import Balletsk from "./Detail/Balletsk";
 import Bag from "./Detail/Bag";
+import Balletjk from "./Detail/Balletjk";
+import Summer from "./Detail/Summer";
+import Poin from "./Detail/Poin";
+import Jp from "./Detail/Jp";
 
 const Router = () => {
     return (
@@ -66,6 +70,10 @@ const Router = () => {
                 <Route path="/socks" element={<Socks />} />
                 <Route path="/balletsk" element={<Balletsk />} />
                 <Route path="/bag" element={<Bag />} />
+                <Route path="/balletjk" element={<Balletjk />} />
+                <Route path="/summer" element={<Summer />} />
+                <Route path="/poin" element={<Poin />} />
+                <Route path="/jp" element={<Jp />} />
 
             </Routes>
         </BrowserRouter>

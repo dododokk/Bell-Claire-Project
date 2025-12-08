@@ -14,26 +14,38 @@ const Product = ({ label }: ProductProps) => {
         if (itemName === "메이플 언발 OPS") {
             navigate("/ops");
         }
-        else if (itemName === "Gossip girl slim eyelet shirt (tie set)"){
+        else if (itemName === "Gossip girl slim eyelet shirt (tie set)") {
             navigate("/gossip");
         }
-        else if (itemName === "fiancée organza rich long sk"){
+        else if (itemName === "fiancée organza rich long sk") {
             navigate("/organza");
         }
-        else if (itemName === "shirt-pointed dress bustier set"){
+        else if (itemName === "shirt-pointed dress bustier set") {
             navigate("/set");
         }
-        else if (itemName === "벨르 세틴 아일렛 TOP"){
+        else if (itemName === "벨르 세틴 아일렛 TOP") {
             navigate("/satin");
         }
-        else if (itemName === "Preto twinkle high knee socks"){
+        else if (itemName === "Preto twinkle high knee socks") {
             navigate("/socks");
         }
-        else if (itemName === "디픈 쉬머 새틴 스트랩 SK"){
+        else if (itemName === "디픈 쉬머 새틴 스트랩 SK") {
             navigate("/balletsk");
         }
-        else if (itemName === "보부상 투웨이 빅사이즈 숄더백"){
+        else if (itemName === "보부상 투웨이 빅사이즈 숄더백") {
             navigate("/bag");
+        }
+        else if (itemName === "발레코어 스트링 데일리 시크 JK") {
+            navigate("/balletjk");
+        }
+        else if (itemName === "머스트 여리핏 썸머 니트 가디건") {
+            navigate("/summer");
+        }
+        else if (itemName === "포인리본라인 셔츠") {
+            navigate("/poin");
+        }
+        else if (itemName === "로슈아 셔링 프릴 나일론 후드 바람막이 JP") {
+            navigate("/jp");
         }
     }
     return (
